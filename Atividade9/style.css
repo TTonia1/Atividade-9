@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: rgb(194, 139, 166);
+    text-align: center;
+}
+
+#girandinho{
+    display: flex;
+    margin-right: 40px;
+}
+
+#caixinha{
+    margin-left: 30%;
+    width: 20%;
+    background-color: rgb(216, 175, 211);
+}
+
+#pequene{
+    margin-left: 1%;
+    width: 20%;
+    background-color: rgb(216, 175, 211);
+}
+
+.caixa{
+    text-align: center;
+    background-color: rgb(216, 175, 211);
+    margin-left: 30%;
+    margin-right: 30%;
+}

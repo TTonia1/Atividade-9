@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <hr></hr>
+       <h1>Antônia Kiatkoski</h1>
+       <p>D2-24</p>
+       <hr></hr>
+    </header>
+    <section>
+        <div>
+            <h3>O form deve ser definido por method e por action</h3>
+            <div id="girandinho">
+                <div id="caixinha">
+                    <h3>Action</h3>
+                    <p>Ele é para onde envia os dados para outro arquivo</p>
+                </div> 
+                <div id="pequene">
+                    <h3>Method</h3>
+                    <p>O metodo get usado para dados não seguros, usado para que o servidor envie de volta um determinado recurso</p> 
+                    <p>O metodo post, os dados são enviados ao servidor, e é feita uma vereficação e retorna um resultado adequado</p>
+                </div>
+            </div>
+            <div class="caixa">
+                <h3>Tag input</h3>
+                <p>Ela deve estar dentro do container form</p>
+                <p>Atributo type, define como a tag input ira se comportar, pois possui valores pre definidos</p>
+            </div>
+        </div>
+        <div>
+            <form method="post" action="receba.html">
+                <input type="text" name="nome" placeholder="Digite seu nome aqui"/>
+                <input type="e-mail" name="email" placeholder="Digite seu email"/>
+                <input type="submit" name="enviar"  value="Enviar"/>
+            </form>
+        </div>
+        <div class="caixa">
+            <h3>Receber os dados do formulario </h3>
+            <p>O post é a maneira em que os dados do formulario são enviados e podem ser manipulados por PHP</p>
+        </div>
+    </section>
+</body>
+</html>
